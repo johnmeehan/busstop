@@ -1,4 +1,3 @@
-const endpoint = 'https://data.dublinked.ie/cgi-bin/rtpi/realtimebusinformation?stopid=609721&format=json';
 let busses = [];
 const searchInput = document.querySelector('.busstop .circle .search-form .search');
 const suggestions = document.querySelector('.suggestions');
@@ -15,7 +14,6 @@ function getBusStopArrivals(e){
     displayBusses();
     searchInput.focus();
   });
-
 }
 
 function displayBusses(){
