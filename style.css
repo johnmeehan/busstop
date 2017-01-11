@@ -16,7 +16,7 @@ html {
 }
 .circle{
   position: absolute;
-  z-index: -1;
+  /*z-index: -1;*/
   background: radial-gradient(ellipse at center, #a90329 0%,#8f0222 44%,#6d0019 100%);
   border-radius: 50%;
   width: 500px;
@@ -37,12 +37,12 @@ html {
 }
 .title{
   position: absolute;
-  z-index: 1;
+  /*z-index: -1;*/
   color: white;
   font-weight: 800;
   font-size: 5em;
-  margin:50px auto;
-  top: 2%;
+  margin:0 auto;
+  top: 10%;
   left: 30%;
 }
 *, *:before, *:after {
@@ -56,9 +56,9 @@ input {
 .search-form {
   position: absolute;
   max-width:400px;
-  margin:50px auto;
-  /*z-index: 1;*/
-  top: 27%;
+  margin:0 auto;
+  z-index: 1;
+  top: 37%;
   left: 10%;
 }
 
